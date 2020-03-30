@@ -1,0 +1,21 @@
+// 用户登录信息
+export const MODULE_AUTHORIZATION = {
+  name: 'authorization',
+  CHECK_USER_AUTHORIZATION: 'CHECK_USER_AUTHORIZATION', // 检查是否存在登录状态
+  GET_USER_INFO: 'GET_USER_INFO', // 根据token获取登录信息
+  SET_USER_TOKEN_AND_CORPORATION: 'SET_USER_TOKEN_AND_CORPORATION', // 设置token
+  SET_USER_AUTHORIZATION: 'SET_USER_AUTHORIZATION', // 登录后设置登录信息
+  GET_LOCAL_CORPORATION_INFO: 'GET_LOCAL_CORPORATION_INFO', //获取本地logo
+  ACT_LOGOUT: 'ACT_LOGOUT' // 注销
+}
+
+// 页面信息
+export const MODULE_PAGE_SETTING = {
+  name: 'pageSetting',
+  INIT_MENU: 'INIT_MENU', // 按权限初始化菜单
+  ACT_SET_MENU_SHOW: 'ACT_SET_MENU_SHOW', // 设置菜单是否展示
+  SET_CURRENT_PAGE: 'SET_CURRENT_PAGE', //设置当前页面
+  SET_TABS: 'SET_TABS', // 设置tabs
+  SET_CURRENT_TAB: 'SET_CURRENT_TAB', // 设置tab
+  DEL_CURRENT_TAB: 'DEL_CURRENT_TAB' // 删除tab
+}
