@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  sb
+  这是一段话啊~~~
     <template v-if="isGuest">
       <router-view />
     </template>
