@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  这是一段话啊~~~sssssssssss
+  这是一段话啊~~~sssssssssssfffffffffffffffffff
     <template v-if="isGuest">
       <router-view />
     </template>
